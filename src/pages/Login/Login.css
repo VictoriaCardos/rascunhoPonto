@@ -1,0 +1,51 @@
+.login-container {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+}
+
+.image-section {
+  flex: 2;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  height: 100vh;
+}
+
+.image-section img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.form-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  padding: 40px;
+  box-shadow: -2px 0 8px rgba(0,0,0,0.05);
+}
+
+.form-section form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+}
+
+.form-section input {
+  padding: 10px;
+  font-size: 16px;
+}
+
+.form-section button {
+  padding: 10px;
+  font-size: 16px;
+  background: #1976d2;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
