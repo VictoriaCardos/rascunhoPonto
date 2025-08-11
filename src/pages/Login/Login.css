@@ -18,6 +18,21 @@
   object-fit: cover;
 }
 
+.logo {
+  position: relative;
+  top: -40px; /* aumenta a distância do topo */
+  left: 40px; /* ajusta a distância da esquerda */
+  width: 500px; /* aumenta o tamanho da logo */
+  height: auto;
+}
+
+.logoDpe {
+  position: relative;
+
+  left: 40px; /* ajusta a distância da esquerda */
+  width: 100px; /* aumenta o tamanho da logo */
+  height: auto;
+}
 .form-section {
   flex: 1;
   display: flex;
@@ -26,7 +41,7 @@
   align-items: center;
   background: #fff;
   padding: 40px;
-  box-shadow: -2px 0 8px rgba(0,0,0,0.05);
+  box-shadow: -2px 0 8px rgba(0, 0, 0, 0.05);
 }
 
 .form-section form {
