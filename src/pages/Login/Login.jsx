@@ -1,5 +1,5 @@
-import React from 'react';
-import './Login.css';
+import React from "react";
+import "./Login.css";
 
 const Login = () => {
   return (
@@ -8,6 +8,8 @@ const Login = () => {
         <img src="/image/imgTelaLogin.jpg" alt="Login" />
       </div>
       <div className="form-section">
+        <img className="logoDpe" src="/image/LogoDPEBA21.png" alt="Logo DPE" />
+        <img className="logo" src="/image/t2.svg" alt="Logo Cheguei" />
         <h2>Login</h2>
         <form>
           <input type="text" placeholder="Usuário" />
@@ -17,5 +19,5 @@ const Login = () => {
       </div>
     </div>
   );
-}
+};
 export default Login;
